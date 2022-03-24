@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-## Why is this important 
+## Why is this important? 
 
 For **effective science communication**—to build the population's trust in scientific findings, it is critical **how** the information is shared, **what** information is shared, and finally, **who** is sharing the information. 
 
