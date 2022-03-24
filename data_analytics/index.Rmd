@@ -20,11 +20,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The research questions that shall be answered are: 
 
-1. Can we discover patterns in reactions to communication of scientific experts using Latent Diriclet Allocation? 
+1. Can we discover patterns in reactions to the communication of scientific experts using Latent Dirichlet Allocation (LDA)?  
 
-2. Is it possible to detect temporal trends in twitter data reactions to science communication of Christian Drosten using topics generated from a topic modeling algorithm?
+2. Is it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?
 
-## method: topic modeling
+## method: Latent Dirichlet Allocation
 
+LDA is a generative probabilistic model of a corpus. 
 
+The basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, 
+where each topic is characterized by a distribution over words.
 
