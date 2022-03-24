@@ -1,7 +1,7 @@
 ---
-title: "My Website"
+title: "#Drosten"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Topic model evalution of reactions to scientific communication
 site: distill::distill_website
 ---
 
@@ -12,4 +12,19 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/website.html
 
 ```
+
+
+## Why is this important 
+
+## Research Questions
+
+The research questions that shall be answered are: 
+
+1. Can we discover patterns in reactions to communication of scientific experts using Latent Diriclet Allocation? 
+
+2. Is it possible to detect temporal trends in twitter data reactions to science communication of Christian Drosten using topics generated from a topic modeling algorithm?
+
+## method: topic modeling
+
+
 

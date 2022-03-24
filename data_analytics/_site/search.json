@@ -6,15 +6,15 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-03-21T19:17:10+01:00"
+      "last_modified": "2022-03-21T20:56:33+01:00"
     },
     {
       "path": "index.html",
-      "title": "My Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "#Drosten",
+      "description": "Topic model evalution of reactions to scientific communication\n",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-03-21T19:18:43+01:00"
+      "contents": "\nWhy is this important\nResearch Questions\nThe research questions that shall be answered are:\nCan we discover patterns in reactions to communication of scientific experts using Latent Diriclet Allocation?\nIs it possible to detect temporal trends in twitter data reactions to science communication of Christian Drosten using topics generated from a topic modeling algorithm?\nUsing topic modeling, can one detect diachronic changes within the words of a given topic throughout the entire corpus?\nCan one use topic modeling to detect diachronic changes in term/word usage within documents that fall into a specific topic?\nmethod: topic modeling\n\n\n\n",
+      "last_modified": "2022-03-24T12:05:19+01:00"
     }
   ],
   "collections": []
