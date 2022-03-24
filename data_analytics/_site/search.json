@@ -3,18 +3,17 @@
     {
       "path": "about.html",
       "title": "About this site",
-      "description": "Some additional details about the website",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-03-21T19:17:10+01:00"
+      "contents": "\n\n\n\n\n",
+      "last_modified": "2022-03-24T15:29:55+01:00"
     },
     {
       "path": "index.html",
       "title": "#Drosten",
       "description": "Topic model evalution of reactions to scientific communication\n",
       "author": [],
-      "contents": "\nWhy is this important\nResearch Questions\nThe research questions that shall be answered are:\nCan we discover patterns in reactions to the communication of scientific experts using Latent Dirichlet Allocation (LDA)?\nIs it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?\nmethod: Latent Dirichlet Allocation\nLDA is a generative probabilistic model of a corpus.\nThe basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words.\n\n\n\n",
-      "last_modified": "2022-03-24T15:21:38+01:00"
+      "contents": "\nWhy is this important\nResearch Questions\nCan we discover patterns in reactions to the communication of scientific experts using Latent Dirichlet Allocation (LDA)?\nIs it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?\nmethod: Latent Dirichlet Allocation\n\nLDA is a generative probabilistic model of a corpus.\nThe basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words.\n\n\n\n",
+      "last_modified": "2022-03-24T15:33:16+01:00"
     }
   ],
   "collections": []
