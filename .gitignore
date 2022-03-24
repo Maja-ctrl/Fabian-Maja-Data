@@ -37,3 +37,5 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+data_analytics/_site/index.html
+data_analytics/_site/search.json
