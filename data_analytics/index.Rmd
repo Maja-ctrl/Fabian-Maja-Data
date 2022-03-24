@@ -2,6 +2,7 @@
 name: "Maja and Fabian"
 title: "#Drosten"
 #image: "latent.png"
+#![](latent.png){width = "200"}
 description: |
   Topic model evalution of reactions to scientific communication
 output: 
@@ -20,11 +21,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Why is this important 
 
-When it comes to **risk communication** it is extremely important how this communication takes place, what is being said, how it is said and of course who is sharing that information to build the population's **trust** in the information that is being shared. As most scientific experts share this kind of information it has an enormous influence on the audience's trust in science. And this also has a huge **impact on the behavior** of the audience. (brauchen wir Quellenangaben?).
+For **effective science communication**—to build the population's trust in scientific findings, it is critical **how** the information is shared, **what** information is shared, and finally, **who** is sharing the information. 
 
-Therefore it is of great importance to investigate how people perceive communicating experts. The **Virologist Christian Drosten** is such an expert and has become a **star on Twitter** in the Corona year. In 2020, the medical expert recorded the largest growth in followers in Germany on the social network, according to the U.S. company's annual review for Germany. The pandemic is probably responsible for Drosten's fame - the country hardly looks to any other expert more during the crisis.
+Most scientific experts share potentially crucial information for society's wealth. However, their communication methods have an enormous impact on science's credibility and determine its impact on societal behavior. 
 
-Followingly, this project takes a closer look at how the german-speaking population perceived this expert's scientific communication displayed by their **tweets mentioning #Drosten**.  
+Therefore, it is highly important to investigate how people perceive the communication of scientific experts. The Virologist **Christian Drosten** is a medical expert and has become a celebrity on Twitter during the COVID pandemic. In 2020, he recorded the most significant growth in followers in Germany on the social network. 
+
+Based on this exemplary social network career of Christian Drosten, this project aims to investigate how the german-speaking population perceived the expert's science communications by analyzing the tweets citing **#Drosten** between 2020 and 2021.
+
+
 
 ## Research Questions
 
@@ -32,12 +37,17 @@ Followingly, this project takes a closer look at how the german-speaking populat
 
 2. Is it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?
 
-## method: Latent Dirichlet Allocation
+## Methods
 
-![](latent.png)
+**Latent Dirichlet Allocation**
 
 LDA is a generative probabilistic model of a corpus. 
 
 The basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, 
 where each topic is characterized by a distribution over words.
+
+
+![](lda.png)
+
+
 

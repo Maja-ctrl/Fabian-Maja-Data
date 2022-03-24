@@ -456,7 +456,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1863,6 +1863,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -2380,7 +2386,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.13.1/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2431,18 +2437,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h2 id="why-is-this-important">Why is this important</h2>
-<p>When it comes to <strong>risk communication</strong> it is extremely important how this communication takes place, what is being said, how it is said and of course who is sharing that information to build the population’s <strong>trust</strong> in the information that is being shared. As most scientific experts share this kind of information it has an enormous influence on the audience’s trust in science. And this also has a huge <strong>impact on the behavior</strong> of the audience. (brauchen wir Quellenangaben?).</p>
-<p>Therefore it is of great importance to investigate how people perceive communicating experts. The <strong>Virologist Christian Drosten</strong> is such an expert and has become a <strong>star on Twitter</strong> in the Corona year. In 2020, the medical expert recorded the largest growth in followers in Germany on the social network, according to the U.S. company’s annual review for Germany. The pandemic is probably responsible for Drosten’s fame - the country hardly looks to any other expert more during the crisis.</p>
-<p>Followingly, this project takes a closer look at how the german-speaking population perceived this expert’s scientific communication displayed by their <strong>tweets mentioning #Drosten</strong>.</p>
+<p>For <strong>effective science communication</strong>—to build the population’s trust in scientific findings, it is critical <strong>how</strong> the information is shared, <strong>what</strong> information is shared, and finally, <strong>who</strong> is sharing the information.</p>
+<p>Most scientific experts share potentially crucial information for society’s wealth. However, their communication methods have an enormous impact on science’s credibility and determine its impact on societal behavior.</p>
+<p>Therefore, it is highly important to investigate how people perceive the communication of scientific experts. The Virologist <strong>Christian Drosten</strong> is a medical expert and has become a celebrity on Twitter during the COVID pandemic. In 2020, he recorded the most significant growth in followers in Germany on the social network.</p>
+<p>Based on this exemplary social network career of Christian Drosten, this project aims to investigate how the german-speaking population perceived the expert’s science communications by analyzing the tweets citing <strong>#Drosten</strong> between 2020 and 2021.</p>
 <h2 id="research-questions">Research Questions</h2>
 <ol type="1">
 <li><p>Can we discover patterns in reactions to the communication of scientific experts using Latent Dirichlet Allocation (LDA)?</p></li>
 <li><p>Is it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?</p></li>
 </ol>
-<h2 id="method-latent-dirichlet-allocation">method: Latent Dirichlet Allocation</h2>
-<p><img src="latent.png" /></p>
+<h2 id="methods">Methods</h2>
+<p><strong>Latent Dirichlet Allocation</strong></p>
 <p>LDA is a generative probabilistic model of a corpus.</p>
 <p>The basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words.</p>
+<p><img src="lda.png" /></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
