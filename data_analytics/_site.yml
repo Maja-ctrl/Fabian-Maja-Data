@@ -1,7 +1,8 @@
 name: "data_analytics"
-title: "My Website"
+title: "Maja and Fabian"
+theme: my_theme.css
 description: |
-  My Website
+  Maja and Fabian
 output_dir: "_site"
 navbar:
   right:

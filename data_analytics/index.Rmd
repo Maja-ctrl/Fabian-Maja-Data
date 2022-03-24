@@ -1,7 +1,11 @@
 ---
+name: "Maja and Fabian"
 title: "#Drosten"
+#image: "latent.png"
 description: |
   Topic model evalution of reactions to scientific communication
+output: 
+postcards:: jolla
 site: distill::distill_website
 ---
 
