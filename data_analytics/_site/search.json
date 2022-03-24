@@ -3,18 +3,17 @@
     {
       "path": "about.html",
       "title": "About this site",
-      "description": "Some additional details about the website",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-03-21T20:56:33+01:00"
+      "contents": "\n\n\n\n\n",
+      "last_modified": "2022-03-24T16:13:48+01:00"
     },
     {
       "path": "index.html",
       "title": "#Drosten",
       "description": "Topic model evalution of reactions to scientific communication\n",
       "author": [],
-      "contents": "\nWhy is this important\nResearch Questions\nThe research questions that shall be answered are:\nCan we discover patterns in reactions to the communication of scientific experts using Latent Dirichlet Allocation (LDA)?\nIs it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?\nmethod: Latent Dirichlet Allocation\nLDA is a generative probabilistic model of a corpus.\nThe basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words.\n\n\n\n",
-      "last_modified": "2022-03-24T15:27:09+01:00"
+      "contents": "\nWhy is this important\nWhen it comes to risk communication it is extremely important how this communication takes place, what is being said, how it is said and of course who is sharing that information to build the population’s trust in the information that is being shared. As most scientific experts share this kind of information it has an enormous influence on the audience’s trust in science. And this also has a huge impact on the behavior of the audience. (brauchen wir Quellenangaben?).\nTherefore it is of great importance to investigate how people perceive communicating experts. The Virologist Christian Drosten is such an expert and has become a star on Twitter in the Corona year. In 2020, the medical expert recorded the largest growth in followers in Germany on the social network, according to the U.S. company’s annual review for Germany. The pandemic is probably responsible for Drosten’s fame - the country hardly looks to any other expert more during the crisis.\nFollowingly, this project takes a closer look at how the german-speaking population perceived this expert’s scientific communication displayed by their tweets mentioning #Drosten.\nResearch Questions\nCan we discover patterns in reactions to the communication of scientific experts using Latent Dirichlet Allocation (LDA)?\nIs it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?\nmethod: Latent Dirichlet Allocation\n\nLDA is a generative probabilistic model of a corpus.\nThe basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words.\n\n\n\n",
+      "last_modified": "2022-03-24T16:28:56+01:00"
     }
   ],
   "collections": []
