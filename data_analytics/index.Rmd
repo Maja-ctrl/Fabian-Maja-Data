@@ -50,4 +50,9 @@ where each topic is characterized by a distribution over words.
 ![](lda.png)
 
 
+## Implications
+
+_ If we are BAG, we now know the topics in the population, we can now specifically inform people about what they're interested... 
+
+
 
