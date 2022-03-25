@@ -4,7 +4,7 @@ title: "#Drosten"
 #image: "latent.png"
 #![](latent.png){width = "200"}
 description: |
-  Topic model evalution of reactions to scientific communication
+  Topic model evaluation of reactions to scientific communication
 output: 
 postcards:: jolla
 site: distill::distill_website
