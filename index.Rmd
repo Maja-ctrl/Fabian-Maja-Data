@@ -1,0 +1,66 @@
+---
+name: "Maja and Fabian"
+title: "Fighting Twitterbots"
+description: |
+  Finding and evaluating twitter bots in a #Drosten related dataset
+output: 
+postcards:: jolla
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+
+## Why is this important? 
+
+Detecting non-human Twitter users has been of interest to academics. Indiana University has developed a free service called **Botometer**, which scores Twitter handles based on their likelihood of being a Twitterbot. Already in 2009, Twitter bots were estimated to create approximately 24% of tweets on Twitter. One academic study in 2017 estimated that **up to 15%** of Twitter users were automated bot accounts. And the prevalence of Twitter bots coupled with the ability of some bots to give seemingly human responses has enabled these non-human accounts to garner **widespread influence**, in both positive and negative ways. 
+
+This project will address the question whether a **specific twitter dataset** - consisting of all tweets mentioning #Drosten or @c_drosten in the years 2020 and 2021 - contains bots and how they evolve over time. 
+
+
+## Research Questions
+
+1. Which percentage of the total number of tweets originate from bots and does this change as the pandemic progresses?  
+
+2. Are bots and non-bots taking talking in a different valence?
+
+## The data
+
+```{r}
+#load(xx)
+
+#head(xx)
+```
+
+
+## Methods
+
+**Botometer**
+
+1. Step [x] Process all tweets by using the botometer API: https://botometer.osome.iu.edu
+
+2. Step [ ] Interpret the results and find a suited threshold 
+
+3. Step [ ] Analyse the results: Frequency and distribution over time 
+
+**Sentiment Analysis**
+
+4. Step [ ] Perform Sentiment Analysis with the tweets indenified as "bot-like"
+
+
+
+## Implications
+
+This small project attempts to contribute to the detection of possible bots in a Twitter dataset related to tweets mentioning Christian Drosten using #drosten or @c_drosten. It can provide us with information about the **extent to which these Twitter hashtags have been used by bots**. 
+
+In addition, the value of bot tweets can tell us more about the origin and goals of the bots created and provide an answer to the question of **whether bots were pushing certain issues**.   
+ 
+
+
+
