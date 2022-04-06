@@ -11,4 +11,3 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![](latent.png)

@@ -87,29 +87,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Data Analytics in Psychology: #Drosten</title>
+  <title>Data Analytics in Psychology: Fighting Twitterbots</title>
 
-  <meta property="description" itemprop="description" content="Topic model evaluation of reactions to scientific communication"/>
+  <meta property="description" itemprop="description" content="Finding and evaluating twitter bots in a #Drosten related dataset"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Data Analytics in Psychology: #Drosten"/>
+  <meta property="og:title" content="Data Analytics in Psychology: Fighting Twitterbots"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Topic model evaluation of reactions to scientific communication"/>
+  <meta property="og:description" content="Finding and evaluating twitter bots in a #Drosten related dataset"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Data Analytics in Psychology"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Data Analytics in Psychology: #Drosten"/>
-  <meta property="twitter:description" content="Topic model evaluation of reactions to scientific communication"/>
+  <meta property="twitter:title" content="Data Analytics in Psychology: Fighting Twitterbots"/>
+  <meta property="twitter:description" content="Finding and evaluating twitter bots in a #Drosten related dataset"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","title","description","output","postcards:","site"]}},"value":[{"type":"character","attributes":{},"value":["Maja and Fabian"]},{"type":"character","attributes":{},"value":["#Drosten"]},{"type":"character","attributes":{},"value":["Topic model evaluation of reactions to scientific communication\n"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jolla"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","title","description","output","postcards:","site"]}},"value":[{"type":"character","attributes":{},"value":["Maja and Fabian"]},{"type":"character","attributes":{},"value":["Fighting Twitterbots"]},{"type":"character","attributes":{},"value":["Finding and evaluating twitter bots in a #Drosten related dataset\n"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jolla"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -456,7 +456,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1863,12 +1863,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
-          $(this).html(fn.shadowRoot.querySelector("sup"))
-          $(this).id = fn.id
-          fn.remove()
-        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -2386,7 +2380,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.13.1/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2406,7 +2400,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"#Drosten","description":"Topic model evaluation of reactions to scientific communication","authors":[]}
+{"title":"Fighting Twitterbots","description":"Finding and evaluating twitter bots in a #Drosten related dataset","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2428,29 +2422,44 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>#Drosten</h1>
+<h1>Fighting Twitterbots</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Topic model evaluation of reactions to scientific communication</p></p>
+<p><p>Finding and evaluating twitter bots in a #Drosten related dataset</p></p>
 </div>
 
 
 <div class="d-article">
 <h2 id="why-is-this-important">Why is this important?</h2>
-<p>For <strong>effective science communication</strong>—to build the population’s trust in scientific findings, it is critical <strong>how</strong> the information is shared, <strong>what</strong> information is shared, and finally, <strong>who</strong> is sharing the information.</p>
-<p>Most scientific experts share potentially crucial information for society’s wealth. However, their communication methods have an enormous impact on science’s credibility and determine its impact on societal behavior.</p>
-<p>Therefore, it is highly important to investigate how people perceive the communication of scientific experts. The Virologist <strong>Christian Drosten</strong> is a medical expert and has become a celebrity on Twitter during the COVID pandemic. In 2020, he recorded the most significant growth in followers in Germany on the social network.</p>
-<p>Based on this exemplary social network career of Christian Drosten, this project aims to investigate how the german-speaking population perceived the expert’s science communications by analyzing the tweets citing <strong>#Drosten</strong> between 2020 and 2021.</p>
+<p>Detecting non-human Twitter users has been of interest to academics. Indiana University has developed a free service called <strong>Botometer</strong>, which scores Twitter handles based on their likelihood of being a Twitterbot. Already in 2009, Twitter bots were estimated to create approximately 24% of tweets on Twitter. One academic study in 2017 estimated that <strong>up to 15%</strong> of Twitter users were automated bot accounts. And the prevalence of Twitter bots coupled with the ability of some bots to give seemingly human responses has enabled these non-human accounts to garner <strong>widespread influence</strong>, in both positive and negative ways.</p>
+<p>This project will address the question whether a <strong>specific twitter dataset</strong> - consisting of all tweets mentioning #Drosten or <span class="citation" data-cites="c_drosten">@c_drosten</span> in the years 2020 and 2021 - contains bots and how they evolve over time.</p>
 <h2 id="research-questions">Research Questions</h2>
 <ol type="1">
-<li><p>Can we discover patterns in reactions to the communication of scientific experts using Latent Dirichlet Allocation (LDA)?</p></li>
-<li><p>Is it possible to detect temporal trends in Twitter reactions to science communication of Christian Drosten using the topics generated from the LDA?</p></li>
+<li><p>Which percentage of the total number of tweets originate from bots and does this change as the pandemic progresses?</p></li>
+<li><p>Are bots and non-bots taking talking in a different valence?</p></li>
 </ol>
+<h2 id="the-data">The data</h2>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
 <h2 id="methods">Methods</h2>
-<p><strong>Latent Dirichlet Allocation</strong></p>
-<p>LDA is a generative probabilistic model of a corpus.</p>
-<p>The basic idea is that documents (here Tweets) are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words.</p>
-<p><img src="lda.png" /></p>
+<p><strong>Botometer</strong></p>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled="" checked="" />
+Process all tweets by using the botometer API: <a href="https://botometer.osome.iu.edu" class="uri">https://botometer.osome.iu.edu</a></p></li>
+<li><p><input type="checkbox" disabled="" />
+Interpret the results and find a suited threshold</p></li>
+<li><p><input type="checkbox" disabled="" />
+Analyse the results: Frequency and distribution over time</p></li>
+</ul>
+<p><strong>Sentiment Analysis</strong></p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+Perform Sentiment Analysis with the tweets indenified as “bot-like”</li>
+</ul>
+<h2 id="implications">Implications</h2>
+<p>This small project attempts to contribute to the detection of possible bots in a Twitter dataset related to tweets mentioning Christian Drosten using #drosten or <span class="citation" data-cites="c_drosten">@c_drosten</span>. It can provide us with information about the <strong>extent to which these Twitter hashtags have been used by bots</strong>.</p>
+<p>In addition, the value of bot tweets can tell us more about the origin and goals of the bots created and provide an answer to the question of <strong>whether bots were pushing certain issues</strong>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
