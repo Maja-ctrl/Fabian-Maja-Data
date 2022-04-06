@@ -1,6 +1,5 @@
 ---
 title: "About this site"
-image: "latent.png"
 output: 
 postcards:: jolla
 site: distill::distill_website
