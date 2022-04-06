@@ -3,7 +3,7 @@ title: "Data Analytics in Psychology"
 theme: my_theme.css
 description: |
   Maja and Fabian
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"

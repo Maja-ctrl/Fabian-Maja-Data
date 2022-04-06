@@ -43,15 +43,15 @@ This project will address the question whether a **specific twitter dataset** - 
 
 **Botometer**
 
-- [x] Process all tweets by using the botometer API: https://botometer.osome.iu.edu
+1. Step [x] Process all tweets by using the botometer API: https://botometer.osome.iu.edu
 
-- [ ] Interpret the results and find a suited threshold 
+2. Step [ ] Interpret the results and find a suited threshold 
 
-- [ ] Analyse the results: Frequency and distribution over time 
+3. Step [ ] Analyse the results: Frequency and distribution over time 
 
 **Sentiment Analysis**
 
-- [ ] Perform Sentiment Analysis with the tweets indenified as "bot-like"
+4. Step [ ] Perform Sentiment Analysis with the tweets indenified as "bot-like"
 
 
 
